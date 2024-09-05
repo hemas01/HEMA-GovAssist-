@@ -1,0 +1,447 @@
+.navigate {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 538px;
+  height: 265px;
+}
+.navigate-wrapper {
+  height: 36px;
+  width: 29px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  z-index: 0;
+}
+.govassist {
+  position: relative;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  z-index: 1;
+}
+.navigate1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.navigate-container {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.and-benefit-with,
+.discover {
+  margin: 0;
+}
+.discover-and-benefit-container {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.instance-parent,
+.password-input-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.password-input-inner {
+  flex-direction: row;
+  padding: 0 var(--padding-4xs) var(--padding-lg);
+  box-sizing: border-box;
+  font-size: var(--font-size-17xl);
+}
+.sign-in {
+  position: relative;
+  display: inline-block;
+  min-width: 92px;
+  z-index: 1;
+}
+.sign-in-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  font-size: var(--font-size-5xl);
+  color: var(--color-chocolate-100);
+}
+.email-input,
+.password-input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.password-input {
+  align-self: stretch;
+  gap: var(--gap-112xl);
+}
+.email-input {
+  width: 706px;
+  padding: var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+}
+.frame-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: rgba(255, 255, 255, 0.31);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  z-index: 1;
+}
+.sign-in1 {
+  position: relative;
+  display: inline-block;
+  min-width: 80px;
+}
+.sign-in-container {
+  position: absolute;
+  top: 6px;
+  left: 51px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 2;
+}
+.rectangle-parent {
+  height: 43px;
+  width: 181px;
+  position: relative;
+  font-size: var(--font-size-5xl);
+}
+.email-input-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.frame-item,
+.government-icon-child {
+  height: 51px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-chocolate-300);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.government-icon-child {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-14xl);
+  box-sizing: border-box;
+  font-family: var(--font-inika);
+  font-weight: 700;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-400);
+  min-width: 250px;
+  z-index: 1;
+}
+.frame-item {
+  width: 536px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.password {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  font-family: var(--font-inika);
+  color: var(--color-gray-400);
+  text-align: left;
+  min-width: 107px;
+  z-index: 2;
+}
+.rectangle-group {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  background-color: var(--color-chocolate-300);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-14xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 1;
+}
+.digilocker-icon,
+.login {
+  position: absolute;
+  cursor: pointer;
+}
+.digilocker-icon {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-chocolate-400);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.login {
+  top: 15px;
+  left: 83px;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  font-family: var(--font-inika);
+  color: var(--color-black);
+  text-align: left;
+  min-width: 64px;
+  z-index: 2;
+}
+.google-icon {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 61px;
+  width: 230px;
+  position: relative;
+}
+.login-button {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.arcticonsdigilocker,
+.flat-color-iconsgoogle {
+  height: 76px;
+  width: 74px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.arcticonsdigilocker {
+  height: 70px;
+  width: 83px;
+}
+.google-logo,
+.google-logo-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.google-logo {
+  align-self: stretch;
+  width: 204px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.google-logo-wrapper {
+  width: 510px;
+  flex: 1;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.government-icon {
+  margin: 0;
+  align-self: stretch;
+  width: 536px;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 38.333333333333336px;
+}
+.frame-parent,
+.government-icon,
+.star-icon {
+  display: flex;
+  max-width: 100%;
+}
+.star-icon {
+  width: 872px;
+  height: 354px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.frame-parent {
+  width: 1102px;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  font-size: var(--font-size-13xl);
+}
+.government-icon-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: rgba(255, 254, 254, 0.31);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  z-index: 1;
+}
+.sign-up {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  font-family: var(--font-inika);
+  color: var(--color-white);
+  text-align: left;
+  min-width: 88px;
+  white-space: nowrap;
+}
+.sign-up-wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 6px;
+  left: 41px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 2;
+}
+.government-icon1 {
+  height: 43px;
+  width: 181px;
+  position: relative;
+}
+.frame-inner {
+  position: absolute;
+  top: -405px;
+  left: -1911px;
+  width: 5329px;
+  height: 1171px;
+}
+.mingcutegovernment-fill-icon {
+  position: absolute;
+  top: 107px;
+  left: 1021px;
+  width: 333px;
+  height: 276px;
+  overflow: hidden;
+  z-index: 1;
+}
+.star-parent {
+  height: 766px;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.d1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xl) 54px 119px;
+  gap: var(--gap-13xl);
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-white);
+  font-family: var(--font-inika);
+}
+@media screen and (max-width: 1350px) {
+  .d1 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .email-input-parent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .navigate {
+    font-size: var(--font-size-10xl);
+  }
+  .govassist {
+    font-size: var(--font-size-7xl);
+  }
+  .discover-and-benefit-container,
+  .navigate1 {
+    font-size: var(--font-size-10xl);
+  }
+  .password-input {
+    gap: 65px 131px;
+  }
+  .government-icon {
+    gap: 19px 38.3px;
+  }
+  .frame-parent {
+    gap: 16px 32px;
+  }
+  .d1 {
+    gap: 32px 16px;
+    padding-left: var(--padding-8xl);
+    padding-right: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .navigate {
+    font-size: var(--font-size-3xl);
+  }
+  .govassist {
+    font-size: var(--font-size-lgi);
+  }
+  .discover-and-benefit-container,
+  .navigate1 {
+    font-size: var(--font-size-3xl);
+  }
+  .sign-in {
+    font-size: var(--font-size-lgi);
+  }
+  .password-input {
+    gap: 33px 131px;
+  }
+  .login,
+  .password,
+  .sign-in1,
+  .sign-up {
+    font-size: var(--font-size-lgi);
+  }
+}
