@@ -1,0 +1,335 @@
+.govassist4 {
+  position: relative;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.home3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  white-space: nowrap;
+  width: 100%;
+  height: 100%;
+}
+.home-frame {
+  height: 31px;
+  width: 66px;
+  position: relative;
+  display: none;
+}
+.home4 {
+  position: relative;
+  display: inline-block;
+  color: var(--color-chocolate-100);
+  min-width: 66px;
+  cursor: pointer;
+  z-index: 1;
+}
+.instance-parent2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs) 0 0;
+  color: var(--color-white);
+}
+.question-bot4 {
+  cursor: pointer;
+}
+.law-finder3,
+.question-bot4,
+.scheme-advisor2 {
+  position: relative;
+  white-space: nowrap;
+}
+.law-finder3 {
+  display: inline-block;
+  min-width: 127px;
+  cursor: pointer;
+}
+.frame-parent14 {
+  margin: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-chocolate-100);
+  font-family: var(--font-inika);
+}
+.d5-inner,
+.frame-nav,
+.govassist-container {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-nav {
+  margin: 0;
+  width: 607px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+}
+.d5-inner,
+.govassist-container {
+  flex-direction: row;
+}
+.govassist-container {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.d5-inner {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 0 2px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-chocolate-100);
+  font-family: var(--font-inter);
+}
+.frame-child10 {
+  width: 1330px;
+  height: 809px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-chocolate-200);
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.navigate8 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 538px;
+  height: 265px;
+}
+.navigate-wrapper5 {
+  width: 29px;
+  height: 36px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  z-index: 1;
+}
+.navigate9 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+.navigate-wrapper6 {
+  width: 152px;
+  height: 47px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  z-index: 2;
+}
+.scheme-advisor3 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.dicons1 {
+  width: 122px;
+  height: 96px;
+  position: absolute;
+  margin: 0 !important;
+  top: 268px;
+  left: 0;
+  object-fit: cover;
+  mix-blend-mode: normal;
+  z-index: 2;
+}
+.frame-child11 {
+  height: 277px;
+  width: 531px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gray-200);
+  display: none;
+  max-width: 100%;
+}
+.here-to-help,
+.welcome-to-govassist {
+  margin: 0;
+}
+.welcome-to-govassist-container {
+  height: 174px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 3;
+}
+.rectangle-parent4 {
+  width: 531px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gray-200);
+  display: flex;
+  justify-content: flex-start;
+  padding: var(--padding-24xl) var(--padding-lg);
+  box-sizing: border-box;
+  min-height: 277px;
+  max-width: 100%;
+  z-index: 1;
+}
+.frame-textarea,
+.frame-wrapper7,
+.rectangle-parent4 {
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frame-wrapper7 {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-textarea {
+  border: 0;
+  background-color: var(--color-gray-200);
+  height: 161px;
+  width: 489px;
+  outline: 0;
+  border-radius: var(--br-11xl);
+  padding: var(--padding-10xl) var(--padding-14xl);
+  box-sizing: border-box;
+  font-family: var(--font-inria-sans);
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-100);
+  z-index: 1;
+}
+.frame-parent15,
+.frame-textarea,
+.frame-wrapper6 {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-parent15 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 9px;
+}
+.frame-wrapper6 {
+  width: 1194px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-2xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-inria-sans);
+}
+.dicons2 {
+  width: 122px;
+  height: 96px;
+  position: absolute;
+  margin: 0 !important;
+  right: 52px;
+  bottom: 156px;
+  object-fit: cover;
+  mix-blend-mode: normal;
+  z-index: 2;
+}
+.d5,
+.rectangle-parent3 {
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangle-parent3 {
+  width: 1332px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-chocolate-200);
+  padding: var(--padding-xl) 50px var(--padding-34xl);
+  gap: 242px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-white);
+  font-family: var(--font-inika);
+}
+.d5 {
+  width: 100%;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  overflow: hidden;
+  padding: var(--padding-9xl) var(--padding-6xl) var(--padding-65xl) 51px;
+  gap: var(--gap-45xl);
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .rectangle-parent3 {
+    gap: 121px 242px;
+    padding-left: var(--padding-6xl);
+    padding-right: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .navigate8,
+  .navigate9,
+  .scheme-advisor3 {
+    font-size: var(--font-size-10xl);
+  }
+  .rectangle-parent3 {
+    padding-bottom: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frame-nav {
+    display: none;
+  }
+  .rectangle-parent3 {
+    gap: 60px 242px;
+  }
+  .d5 {
+    gap: 32px 64px;
+    padding-left: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .navigate8,
+  .navigate9,
+  .scheme-advisor3 {
+    font-size: var(--font-size-3xl);
+  }
+  .welcome-to-govassist-container {
+    font-size: var(--font-size-lgi);
+  }
+  .rectangle-parent3 {
+    gap: 30px 242px;
+    padding-bottom: 22px;
+    box-sizing: border-box;
+  }
+  .d5 {
+    gap: 16px 64px;
+  }
+}
