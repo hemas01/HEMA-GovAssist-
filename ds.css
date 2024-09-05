@@ -1,0 +1,695 @@
+.navigate2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 538px;
+  height: 265px;
+}
+.navigate-frame {
+  width: 29px;
+  height: 36px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  z-index: 0;
+}
+.govassist1 {
+  width: 156px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 2;
+}
+.navigate3 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.frame-div {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 2;
+}
+.and-benefit-with1,
+.discover1 {
+  margin: 0;
+}
+.discover-and-benefit-container1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 2;
+}
+.instance-group {
+  flex-direction: column;
+}
+.frame-wrapper,
+.govassist-parent,
+.instance-group {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-wrapper {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-4xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-17xl);
+  font-family: var(--font-inika);
+}
+.govassist-parent {
+  flex-direction: column;
+  gap: var(--gap-112xl);
+  min-width: 458px;
+}
+.home {
+  position: relative;
+  display: inline-block;
+  min-width: 66px;
+  white-space: nowrap;
+}
+.home-wrapper,
+.woman-student-farmer-family {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.home-wrapper {
+  flex-direction: row;
+  z-index: 2;
+}
+.woman-student-farmer-family {
+  flex-direction: column;
+  padding: 0 var(--padding-4xs) 0 0;
+}
+.question-bot {
+  position: relative;
+  white-space: nowrap;
+}
+.question-bot-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 2;
+}
+.scheme-advisor {
+  height: 54px;
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
+}
+.scheme-advisor-wrapper {
+  position: absolute;
+  top: 0;
+  left: 165px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 3;
+}
+.instance-container {
+  height: 54px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.law-finder {
+  position: relative;
+  display: inline-block;
+  min-width: 127px;
+  white-space: nowrap;
+}
+.law-finder-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 2;
+}
+.frame-container,
+.woman-student-farmer-family-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.woman-student-farmer-family-parent {
+  width: 598px;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-inika);
+}
+.frame-container {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.law-finder1 {
+  position: relative;
+  display: inline-block;
+  min-width: 127px;
+}
+.law-finder-container {
+  margin: 0 !important;
+  position: absolute;
+  top: 20px;
+  right: 276px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangle-div {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: rgba(221, 94, 23, 0.58);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+.start-exploring-today {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-17xl);
+  font-weight: 400;
+  font-family: var(--font-inder);
+  color: var(--color-saddlebrown);
+  z-index: 2;
+}
+.group-div {
+  width: 712px;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 14px 161px 13px;
+  box-sizing: border-box;
+  position: relative;
+  cursor: pointer;
+  z-index: 2;
+}
+.frame-group,
+.frame-wrapper1,
+.group-div {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-wrapper1 {
+  width: 1300px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-inika);
+}
+.frame-group {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 137px;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-inter);
+}
+.noto-v1woman-student-icon,
+.notoman-farmer-icon {
+  position: absolute;
+  top: 626px;
+  left: 670px;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+.notoman-farmer-icon {
+  top: 630px;
+  left: 393px;
+}
+.frame-child1 {
+  position: absolute;
+  top: -429px;
+  left: -1969px;
+  width: 5329px;
+  height: 1171px;
+  z-index: 1;
+}
+.noto-v1family-icon {
+  position: absolute;
+  top: 630px;
+  left: 89px;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  z-index: 2;
+}
+.image-3-icon,
+.image-4-icon {
+  position: absolute;
+  top: 624px;
+  left: 960px;
+  width: 132px;
+  height: 117px;
+  object-fit: cover;
+  z-index: 2;
+}
+.image-4-icon {
+  top: 629px;
+  left: 1247px;
+  width: 102px;
+  height: 109px;
+}
+.mingcutegovernment-fill-icon1 {
+  position: absolute;
+  top: 107px;
+  left: 1008px;
+  width: 333px;
+  height: 276px;
+  overflow: hidden;
+  z-index: 2;
+}
+.noto-v1woman-student-parent {
+  width: 100%;
+  height: 742px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.individuals-families {
+  width: 173px;
+  height: 54px;
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+}
+.noto-v1family-woman-girl-girl-icon {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.womens-children {
+  flex: 1;
+  position: relative;
+}
+.noto-v1family-woman-girl-girl-parent,
+.womens-children-wrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.womens-children-wrapper {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-10xs);
+}
+.noto-v1family-woman-girl-girl-parent {
+  width: 140px;
+  flex-direction: column;
+  gap: 8px;
+}
+.frame-wrapper2 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.individuals-families-parent {
+  height: 261.4px;
+  width: 281px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 39.799999999999955px;
+  min-width: 281px;
+}
+.farmers-agricultural {
+  height: 83px;
+  width: 139px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.farmers-agricultural,
+.student-youth {
+  position: relative;
+  z-index: 2;
+}
+.farmers-agricultural-workers-parent,
+.frame-wrapper3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.farmers-agricultural-workers-parent {
+  width: 445px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frame-wrapper3 {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.image-7-icon,
+.image-8-icon {
+  position: absolute;
+  max-height: 100%;
+  object-fit: cover;
+}
+.image-7-icon {
+  height: calc(100% - 14px);
+  top: 9px;
+  bottom: 5px;
+  left: 68px;
+  width: 90px;
+}
+.image-8-icon {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 99px;
+  z-index: 1;
+}
+.caste-tribes-area {
+  width: 158px;
+  height: 98px;
+  position: relative;
+}
+.caste-tribes {
+  position: relative;
+}
+.caste-tribes-area-parent,
+.frame-wrapper4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.caste-tribes-area-parent {
+  justify-content: flex-start;
+  gap: 3px;
+}
+.frame-wrapper4 {
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-7xs);
+}
+.image-6-icon {
+  width: 117px;
+  height: 119px;
+  object-fit: cover;
+}
+.image-6-icon,
+.rural-areas {
+  position: relative;
+}
+.rural-region {
+  height: 155px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 6px;
+}
+.frame-parent4 {
+  width: 436px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  margin-top: -1.2px;
+}
+.frame-parent2,
+.frame-parent3 {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-parent3 {
+  flex-direction: column;
+  align-items: flex-end;
+  min-width: 368px;
+}
+.frame-parent2 {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 22px;
+}
+.senior-citizens1 {
+  margin-block-start: 0;
+  margin-block-end: 5px;
+}
+.disabled,
+.senior-citizens {
+  position: relative;
+  display: inline-block;
+}
+.senior-citizens {
+  height: 65px;
+}
+.disabled {
+  min-width: 97px;
+}
+.disabled-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.image-5-icon {
+  height: 98px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.urban-area {
+  width: 110px;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs);
+  box-sizing: border-box;
+}
+.urban-areas {
+  position: relative;
+}
+.disabled-people {
+  height: 141px;
+  flex-direction: column;
+  gap: 13px;
+}
+.disabled-people,
+.frame-parent5,
+.senior-citizens-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent5 {
+  flex: 1;
+  flex-direction: column;
+  gap: 46px;
+  min-width: 136px;
+}
+.senior-citizens-parent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 15px;
+}
+.senior-citizens-urban {
+  width: 390px;
+  flex-direction: column;
+  padding: 5.399999999999977px 0 0;
+  box-sizing: border-box;
+  min-width: 390px;
+  max-width: 100%;
+}
+.d3,
+.d3-inner,
+.frame-parent1,
+.senior-citizens-urban {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent1 {
+  flex: 1;
+  flex-direction: row;
+  gap: 12px;
+  max-width: 100%;
+}
+.d3,
+.d3-inner {
+  box-sizing: border-box;
+  text-align: left;
+}
+.d3-inner {
+  width: 1321px;
+  flex-direction: row;
+  padding: 0 var(--padding-6xl);
+  max-width: 100%;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-inder);
+}
+.d3 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-9xl) var(--padding-16xl) var(--padding-2xl)
+    var(--padding-34xl);
+  gap: 193.6px;
+  letter-spacing: normal;
+  font-size: var(--font-size-17xl);
+  color: var(--color-white);
+  font-family: var(--font-inika);
+}
+@media screen and (max-width: 1200px) {
+  .govassist-parent {
+    flex: 1;
+  }
+  .frame-container {
+    flex-wrap: wrap;
+  }
+  .frame-group {
+    gap: 68px 137px;
+  }
+  .senior-citizens-urban {
+    flex: 1;
+  }
+  .frame-parent1 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .discover-and-benefit-container1,
+  .navigate2,
+  .navigate3,
+  .start-exploring-today {
+    font-size: var(--font-size-10xl);
+  }
+  .individuals-families-parent {
+    flex: 1;
+  }
+  .frame-parent2 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .govassist-parent {
+    min-width: 100%;
+  }
+  .group-div {
+    padding-left: var(--padding-61xl);
+    padding-right: var(--padding-61xl);
+    box-sizing: border-box;
+  }
+  .frame-group {
+    gap: 34px 137px;
+  }
+  .frame-parent2,
+  .frame-parent3,
+  .senior-citizens-urban {
+    min-width: 100%;
+  }
+  .d3 {
+    gap: 97px 193.6px;
+    padding-left: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .discover-and-benefit-container1,
+  .navigate2,
+  .navigate3 {
+    font-size: var(--font-size-3xl);
+  }
+  .govassist-parent {
+    gap: 65px 131px;
+  }
+  .law-finder1 {
+    font-size: var(--font-size-lgi);
+  }
+  .start-exploring-today {
+    font-size: var(--font-size-3xl);
+  }
+  .group-div {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .frame-group {
+    gap: 17px 137px;
+  }
+  .individuals-families,
+  .womens-children {
+    font-size: var(--font-size-lgi);
+  }
+  .individuals-families-parent {
+    gap: 20px 39.8px;
+  }
+  .farmers-agricultural,
+  .student-youth {
+    font-size: var(--font-size-lgi);
+  }
+  .farmers-agricultural-workers-parent {
+    flex-wrap: wrap;
+  }
+  .caste-tribes,
+  .rural-areas {
+    font-size: var(--font-size-lgi);
+  }
+  .frame-parent4 {
+    flex-wrap: wrap;
+  }
+  .disabled,
+  .senior-citizens,
+  .urban-areas {
+    font-size: var(--font-size-lgi);
+  }
+  .senior-citizens-parent {
+    flex-wrap: wrap;
+  }
+  .d3 {
+    gap: 48px 193.6px;
+  }
+}
