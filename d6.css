@@ -1,0 +1,648 @@
+.navigate10 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 538px;
+  height: 265px;
+}
+.navigate-wrapper7 {
+  width: 29px;
+  height: 36px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.govassist5 {
+  position: relative;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.home5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  white-space: nowrap;
+  width: 100%;
+  height: 100%;
+}
+.home-wrapper1 {
+  height: 31px;
+  width: 66px;
+  position: relative;
+  display: none;
+}
+.home6 {
+  position: relative;
+  display: inline-block;
+  color: var(--color-chocolate-100);
+  min-width: 66px;
+  cursor: pointer;
+  z-index: 1;
+}
+.home-label {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs) 0 0;
+  color: var(--color-white);
+}
+.question-bot5,
+.scheme-advisor4 {
+  position: relative;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.law-finder4 {
+  position: relative;
+  display: inline-block;
+  min-width: 127px;
+  white-space: nowrap;
+}
+.home-label-parent {
+  margin: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-chocolate-100);
+  font-family: var(--font-inika);
+}
+.frame-header,
+.gov-assist-label {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.gov-assist-label {
+  margin: 0;
+  width: 607px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+}
+.frame-header {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-chocolate-100);
+  font-family: var(--font-inter);
+}
+.law-finder5 {
+  position: relative;
+}
+.image-9-icon {
+  height: 126px;
+  width: 126px;
+  position: absolute;
+  margin: 0 !important;
+  top: -47px;
+  left: -110px;
+  object-fit: cover;
+  z-index: 1;
+}
+.law-finder-icon,
+.law-finder-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.law-finder-parent {
+  position: relative;
+}
+.law-finder-icon {
+  padding: 0 76px;
+  box-sizing: border-box;
+  max-width: 100%;
+  color: var(--color-saddlebrown);
+}
+.navigate11 {
+  position: relative;
+}
+.navigate-wrapper8 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-child12 {
+  height: 319px;
+  width: 235px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background: linear-gradient(135deg, rgba(254, 193, 99, 0.72), #de4313);
+  display: none;
+}
+.equality-and-social {
+  width: 150px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.rectangle-parent5 {
+  flex: 0.6974;
+  border-radius: var(--br-xl);
+  background: linear-gradient(135deg, rgba(254, 193, 99, 0.72), #de4313);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-24xl) var(--padding-19xl);
+  box-sizing: border-box;
+  min-width: 230px;
+  max-width: 235px;
+  min-height: 319px;
+}
+.frame-child13 {
+  height: 319px;
+  width: 235px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background: linear-gradient(135deg, #fec163, #de4313);
+  display: none;
+}
+.transparency-and-accountabilit {
+  height: 251px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.frame-wrapper8,
+.rectangle-parent6 {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.rectangle-parent6 {
+  align-self: stretch;
+  height: 319px;
+  border-radius: var(--br-xl);
+  background: linear-gradient(135deg, #fec163, #de4313);
+  flex-direction: row;
+  align-items: flex-end;
+  padding: var(--padding-6xl) 8px var(--padding-6xl) var(--padding-4xs);
+}
+.frame-wrapper8 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 var(--padding-6xs) 0 0;
+  min-width: 237px;
+  max-width: 242px;
+}
+.frame-child14 {
+  height: 319px;
+  width: 235px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background: linear-gradient(135deg, #fec163, #de4313);
+  display: none;
+}
+.welfare-and-poverty {
+  height: 251px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.frame-wrapper9,
+.rectangle-parent7 {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.rectangle-parent7 {
+  align-self: stretch;
+  height: 319px;
+  border-radius: var(--br-xl);
+  background: linear-gradient(135deg, #fec163, #de4313);
+  flex-direction: row;
+  align-items: flex-end;
+  padding: var(--padding-6xl) var(--padding-lg) var(--padding-6xl)
+    var(--padding-4xl);
+}
+.frame-wrapper9 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 var(--padding-6xs) 0 0;
+  min-width: 237px;
+  max-width: 242px;
+}
+.frame-child15 {
+  height: 319px;
+  width: 235px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background: linear-gradient(135deg, #fec163, #de4313);
+  display: none;
+}
+.employment-and-livelihood {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.frame-child16,
+.rectangle-parent8 {
+  border-radius: var(--br-xl);
+  background: linear-gradient(135deg, #fec163, #de4313);
+}
+.rectangle-parent8 {
+  flex: 0.8465;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-24xl) 17px var(--padding-24xl) var(--padding-6xl);
+  box-sizing: border-box;
+  min-width: 230px;
+  max-width: 235px;
+  min-height: 319px;
+}
+.frame-child16 {
+  height: 319px;
+  width: 235px;
+  position: relative;
+  display: none;
+}
+.housing-and-urban {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.rectangle-parent9 {
+  flex: 0.8991;
+  border-radius: var(--br-xl);
+  background: linear-gradient(135deg, #fec163, #de4313);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-24xl) 15px;
+  box-sizing: border-box;
+  min-width: 230px;
+  max-width: 235px;
+  min-height: 319px;
+}
+.frame-parent17,
+.law-finder-icon-parent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.frame-parent17 {
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-12xl);
+  font-size: var(--font-size-13xl);
+}
+.law-finder-icon-parent {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 14px;
+  max-width: 100%;
+}
+.frame-child17 {
+  height: 319px;
+  width: 235px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background: linear-gradient(135deg, #fec163, #de4313);
+  display: none;
+}
+.financial-inclusion-and {
+  width: 168px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frame-child18,
+.rectangle-parent10 {
+  border-radius: var(--br-xl);
+  background: linear-gradient(135deg, #fec163, #de4313);
+}
+.rectangle-parent10 {
+  flex: 0.7729;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-15xl) var(--padding-10xl) var(--padding-14xl);
+  box-sizing: border-box;
+  min-width: 230px;
+  max-width: 235px;
+}
+.frame-child18 {
+  height: 319px;
+  width: 235px;
+  position: relative;
+  display: none;
+}
+.women-and-child {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.frame-wrapper10,
+.rectangle-parent11 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.rectangle-parent11 {
+  align-self: stretch;
+  height: 319px;
+  border-radius: var(--br-xl);
+  background: linear-gradient(135deg, #fec163, #de4313);
+  flex-direction: row;
+  padding: var(--padding-15xl) var(--padding-9xl);
+}
+.frame-wrapper10 {
+  flex: 0.9874;
+  flex-direction: column;
+  padding: 0 var(--padding-4xs) 0 0;
+  min-width: 239px;
+  max-width: 244px;
+}
+.frame-child19 {
+  height: 319px;
+  width: 235px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background: linear-gradient(135deg, #fec163, #de4313);
+  display: none;
+}
+.rural-development-and {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.frame-wrapper11,
+.rectangle-parent12 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.rectangle-parent12 {
+  align-self: stretch;
+  height: 319px;
+  border-radius: var(--br-xl);
+  background: linear-gradient(135deg, #fec163, #de4313);
+  flex-direction: row;
+  padding: var(--padding-15xl) 0 var(--padding-15xl) var(--padding-10xl);
+}
+.frame-wrapper11 {
+  flex: 1;
+  flex-direction: column;
+  padding: 0 var(--padding-7xs) 0 0;
+  min-width: 239px;
+  max-width: 244px;
+}
+.frame-child20 {
+  height: 319px;
+  width: 235px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background: linear-gradient(135deg, #fec163, #de4313);
+  display: none;
+}
+.healthcare-and-public {
+  height: 186px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.frame-child21,
+.rectangle-parent13 {
+  border-radius: var(--br-xl);
+  background: linear-gradient(135deg, #fec163, #de4313);
+}
+.rectangle-parent13 {
+  flex: 0.8515;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-17xl) var(--padding-xl);
+  box-sizing: border-box;
+  min-width: 230px;
+  max-width: 235px;
+  min-height: 319px;
+}
+.frame-child21 {
+  height: 319px;
+  width: 235px;
+  position: relative;
+  display: none;
+}
+.labor-rights-and {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.frame-footer,
+.rectangle-parent14 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.rectangle-parent14 {
+  flex: 0.7729;
+  border-radius: var(--br-xl);
+  background: linear-gradient(135deg, #fec163, #de4313);
+  justify-content: flex-start;
+  padding: var(--padding-18xl) var(--padding-2xl) var(--padding-18xl)
+    var(--padding-18xl);
+  box-sizing: border-box;
+  min-width: 230px;
+  max-width: 235px;
+  min-height: 319px;
+}
+.frame-footer {
+  align-self: stretch;
+  justify-content: center;
+  gap: var(--gap-12xl);
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+  font-family: var(--font-inika);
+}
+.d6,
+.d6-inner,
+.frame-parent16 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent16 {
+  flex: 1;
+  flex-direction: column;
+  gap: 38px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-white);
+  font-family: var(--font-inika);
+}
+.d6,
+.d6-inner {
+  box-sizing: border-box;
+}
+.d6-inner {
+  width: 1335px;
+  flex-direction: row;
+  padding: 0 var(--padding-4xs);
+  max-width: 100%;
+}
+.d6 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-9xl) var(--padding-6xl) 88px var(--padding-34xl);
+  gap: 71px;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-white);
+  font-family: var(--font-inika);
+}
+@media screen and (max-width: 1150px) {
+  .rectangle-parent5,
+  .rectangle-parent8,
+  .rectangle-parent9 {
+    min-height: auto;
+  }
+  .frame-parent17 {
+    flex-wrap: wrap;
+  }
+  .rectangle-parent13,
+  .rectangle-parent14 {
+    min-height: auto;
+  }
+  .frame-footer {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .navigate10 {
+    font-size: var(--font-size-10xl);
+  }
+  .gov-assist-label {
+    display: none;
+  }
+  .law-finder5,
+  .navigate11 {
+    font-size: var(--font-size-10xl);
+  }
+  .employment-and-livelihood,
+  .equality-and-social,
+  .financial-inclusion-and,
+  .healthcare-and-public,
+  .housing-and-urban,
+  .labor-rights-and,
+  .rural-development-and,
+  .transparency-and-accountabilit,
+  .welfare-and-poverty,
+  .women-and-child {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .frame-footer,
+  .frame-parent17 {
+    gap: 31px 15px;
+  }
+  .frame-parent16 {
+    gap: 19px 38px;
+  }
+  .d6 {
+    gap: 35px 71px;
+    padding-left: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .law-finder5,
+  .navigate10 {
+    font-size: var(--font-size-3xl);
+  }
+  .law-finder-icon {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .navigate11 {
+    font-size: var(--font-size-3xl);
+  }
+  .equality-and-social {
+    font-size: var(--font-size-lgi);
+  }
+  .rectangle-parent5 {
+    flex: 1;
+  }
+  .employment-and-livelihood,
+  .transparency-and-accountabilit,
+  .welfare-and-poverty {
+    font-size: var(--font-size-lgi);
+  }
+  .rectangle-parent8 {
+    flex: 1;
+  }
+  .housing-and-urban {
+    font-size: var(--font-size-lgi);
+  }
+  .rectangle-parent9 {
+    flex: 1;
+  }
+  .financial-inclusion-and {
+    font-size: var(--font-size-lgi);
+  }
+  .rectangle-parent10 {
+    flex: 1;
+  }
+  .women-and-child {
+    font-size: var(--font-size-lgi);
+  }
+  .frame-wrapper10 {
+    flex: 1;
+  }
+  .healthcare-and-public,
+  .rural-development-and {
+    font-size: var(--font-size-lgi);
+  }
+  .rectangle-parent13 {
+    flex: 1;
+  }
+  .labor-rights-and {
+    font-size: var(--font-size-lgi);
+  }
+  .rectangle-parent14 {
+    flex: 1;
+  }
+  .d6 {
+    gap: 18px 71px;
+  }
+}
